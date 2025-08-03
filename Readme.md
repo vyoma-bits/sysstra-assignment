@@ -34,12 +34,6 @@
    python main.py --symbols BTCUSDT --mongo-uri "url"
    ```
 
-## Data Storage
-
-The application uses a dual storage system:
-- **Redis**: For real-time data processing and caching
-- **MongoDB**: For persistent long-term storage
-
 ## Logging
 
 - Application logs are generated in `tick_aggregator.log`
